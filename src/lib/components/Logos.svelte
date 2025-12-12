@@ -1,33 +1,27 @@
-<script>
-  const logos = [
-    { name: "granola", font: "font-serif font-bold" },
-    { name: "CURSOR", font: "font-mono font-bold tracking-widest" },
-    { name: "Raycast", font: "font-sans font-bold" },
-    { name: "n8n", font: "font-mono font-bold text-xl" },
-    { name: "Ashby", font: "font-sans font-bold italic" },
-    { name: "Buildkite", font: "font-sans font-bold text-green-600" },
-    { name: "Laravel", font: "font-sans font-light uppercase tracking-widest text-red-500" },
-    { name: "Stytch", font: "font-sans font-bold tracking-tight" },
-    { name: "tinybird", font: "font-mono font-bold text-blue-500" },
-    { name: "Vapi", font: "font-sans font-black tracking-tighter" },
-    { name: "tines", font: "font-sans font-bold" },
-    { name: "Default", font: "font-serif italic font-bold" },
-  ];
-</script>
-
 <section class="py-16 border-b border-gray-100">
   <div class="container-custom text-center">
     <p class="text-[10px] font-bold tracking-[0.2em] text-gray-400 uppercase mb-10">
-      Hundreds of fast-moving teams rely on Plain
+      Trusted by 10,000+ profitable sports bettors worldwide
     </p>
     
-    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-12 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-      {#each logos as logo}
-        <div class="text-xl md:text-2xl text-gray-800 flex items-center justify-center w-full">
-           <!-- Placeholder for actual SVG logos -->
-           <span class="{logo.font}">{logo.name}</span>
-        </div>
-      {/each}
+    <div class="flex items-center justify-center gap-12 flex-wrap">
+      <div class="flex items-center gap-2 text-gray-400">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <span class="ml-2 font-bold text-gray-600">4.8/5</span>
+      </div>
+      <div class="text-sm text-gray-500">
+        <span class="font-bold text-gray-900">€2.4M+</span> in profits generated
+      </div>
+      <div class="text-sm text-gray-500">
+        <span class="font-bold text-gray-900">100+</span> bookmakers tracked
+      </div>
+      <div class="text-sm text-gray-500">
+        <span class="font-bold text-gray-900">24/7</span> opportunity scanning
+      </div>
     </div>
   </div>
 </section>

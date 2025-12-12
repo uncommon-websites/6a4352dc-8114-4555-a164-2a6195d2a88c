@@ -30,10 +30,10 @@
         <!-- Floating Overlay Text -->
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl text-center px-4">
             <h2 class="text-3xl md:text-5xl font-bold tracking-tight text-white mb-6 drop-shadow-lg">
-                Plain orchestrates your support
+                BetSmarter finds profits automatically
             </h2>
             <p class="text-lg text-gray-300 leading-relaxed drop-shadow-md">
-                Connect your channels. Orchestrate every conversation. Get smarter with each interaction, all inside one unified workspace built to scale intelligently with you.
+                Our algorithms scan 100+ bookmakers 24/7, instantly identifying arbitrage, value, and matched betting opportunities. You get real-time alerts when guaranteed profits appear.
             </p>
         </div>
     </div>
